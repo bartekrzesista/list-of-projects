@@ -65,3 +65,22 @@ body {
     }
 
 }
+
+@media only screen and (min-width: 768px) {
+    .main {
+        &__heading {
+            font-size: 42px;
+        }
+
+        &__content-grid {
+            max-width: 800px;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .repo {
+        &__list {
+            padding: 16px;
+        }
+    }
+}
