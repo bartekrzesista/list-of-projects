@@ -14,3 +14,54 @@ body {
     color: #fff;
     font-family: 'Roboto', sans-serif;
 }
+
+.main {
+    width: 100%;
+    padding: 8px;
+
+    &__heading {
+        text-align: center;
+        font-size: 38px;
+        margin-bottom: 50px;
+    }
+
+    &__description {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    &__content-grid {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 8px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        justify-items: center;
+    }
+
+    & a {
+        color: lime;
+    }
+}
+
+.repo {
+    border: 2px solid #FFA69E;
+    width: 100%;
+    min-height: 150px;
+    padding: 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 16px;
+
+    &__list {
+        list-style: none;
+        padding: 8px;
+
+        &-item {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+}
