@@ -1,6 +1,11 @@
 @import './normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 
+$bg-color: #2E2E3A;
+$text-color: #fff;
+$link-color: #42E2B8;
+$repo-border-color: #FFA69E;
+
 html {
     box-sizing: border-box;
 }
@@ -10,8 +15,8 @@ html {
 }
 
 body {
-    background-color: #2E2E3A;
-    color: #fff;
+    background-color: $bg-color;
+    color: $text-color;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -41,12 +46,12 @@ body {
     }
 
     & a {
-        color: lime;
+        color: $link-color;
     }
 }
 
 .repo {
-    border: 2px solid #FFA69E;
+    border: 2px solid $repo-border-color;
     width: 100%;
     min-height: 150px;
     padding: 12px;
