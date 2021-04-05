@@ -347,3 +347,77 @@
   [hidden] {
     display: none;
   }
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #2E2E3A;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  width: 100%;
+  padding: 8px;
+}
+.main__heading {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 50px;
+}
+.main__description {
+  text-align: center;
+  font-size: 18px;
+}
+.main__content-grid {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 8px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  justify-items: center;
+}
+.main a {
+  color: #42E2B8;
+}
+
+.repo {
+  border: 2px solid #FFA69E;
+  width: 100%;
+  min-height: 150px;
+  padding: 12px;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 16px;
+}
+.repo__list {
+  list-style: none;
+  padding: 8px;
+}
+.repo__list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+  .main__heading {
+    font-size: 42px;
+  }
+  .main__content-grid {
+    max-width: 800px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .repo__list {
+    padding: 16px;
+  }
+}
+
+/*# sourceMappingURL=/js.00a46daa.css.map */
